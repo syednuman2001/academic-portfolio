@@ -1,0 +1,74 @@
+[
+  {
+    "id": "okra-leaf-disease-deit-mistral",
+    "title": "Okra Leaf Disease Detection using DeiT and Mistral-7B",
+    "description": "MSCS research focused on detecting okra leaf diseases using a Data-efficient Image Transformer (DeiT) model and integrating Mistral-7B LLM to generate human-readable explanations of predictions.",
+    "problem": "Manual identification of okra leaf diseases is time-consuming and requires agricultural expertise. Deep learning models can automate detection, but explanations are often difficult for non-technical users to understand.",
+    "methodology": "Fine-tuned a pretrained DeiT model for okra leaf disease classification and integrated Mistral-7B to convert model predictions into understandable natural-language explanations.",
+    "results": "The system supports automated disease classification and generates readable explanations to help farmers, students, and agricultural experts understand model outputs.",
+    "tags": [
+      "Okra Leaf Disease Detection",
+      "DeiT",
+      "Mistral-7B",
+      "Vision Transformers",
+      "Explainable AI",
+      "Agriculture AI"
+    ],
+    "icon": "leaf",
+    "featured": true,
+    "github": "https://github.com/syednuman2001",
+    "paper": "#"
+  },
+  {
+    "id": "few-shot-learning",
+    "title": "Few-Shot Learning",
+    "description": "Developing methods that enable models to learn from very few labeled examples by leveraging meta-learning and transfer learning strategies.",
+    "problem": "Traditional deep learning systems require massive annotated datasets, which are expensive and difficult to collect in many real-world applications.",
+    "methodology": "Implemented few-shot learning pipelines using transfer learning and lightweight adaptation strategies to improve data efficiency.",
+    "results": "Initial experiments demonstrated strong learning capability under limited training samples with promising generalization performance.",
+    "tags": ["Few-Shot Learning", "Meta-Learning", "Transfer Learning"],
+    "icon": "brain",
+    "featured": true,
+    "github": "https://github.com/syednuman2001",
+    "paper": "#"
+  },
+  {
+    "id": "vision-transformers",
+    "title": "Vision Transformers",
+    "description": "Exploring attention-based architectures for image recognition, object detection, and semantic segmentation tasks.",
+    "problem": "CNN-based architectures face limitations in capturing long-range dependencies and global image context.",
+    "methodology": "Evaluated DeiT and Vision Transformer architectures for efficient image understanding and classification tasks.",
+    "results": "Transformer-based models achieved competitive performance with improved feature representation capabilities.",
+    "tags": ["Vision Transformers", "Self-Attention", "Deep Learning"],
+    "icon": "eye",
+    "featured": true,
+    "github": "https://github.com/syednuman2001",
+    "paper": "#"
+  },
+  {
+    "id": "domain-adaptation",
+    "title": "Domain Adaptation",
+    "description": "Bridging the gap between source and target domains to enable robust model deployment across diverse real-world conditions.",
+    "problem": "AI models trained on one domain often perform poorly when deployed in different environmental conditions.",
+    "methodology": "Investigated feature alignment and transfer learning techniques to improve cross-domain generalization.",
+    "results": "Adaptation-based approaches reduced performance degradation between source and target domains.",
+    "tags": ["Domain Adaptation", "Transfer Learning", "Computer Vision"],
+    "icon": "arrows-exchange",
+    "featured": false,
+    "github": "https://github.com/syednuman2001",
+    "paper": "#"
+  },
+  {
+    "id": "incremental-learning",
+    "title": "Incremental Learning",
+    "description": "Building systems that continuously acquire new knowledge without forgetting previously learned information.",
+    "problem": "Conventional neural networks suffer from catastrophic forgetting when trained on new classes incrementally.",
+    "methodology": "Designed experiments for class-incremental learning scenarios using memory-efficient learning pipelines.",
+    "results": "Incremental training strategies showed improved retention of previously learned knowledge.",
+    "tags": ["Incremental Learning", "Continual Learning", "Deep Learning"],
+    "icon": "trending-up",
+    "featured": false,
+    "github": "https://github.com/syednuman2001",
+    "paper": "#"
+  }
+]

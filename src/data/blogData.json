@@ -1,0 +1,52 @@
+[
+  {
+    "id": "blog-001",
+    "slug": "understanding-vision-transformers",
+    "title": "Understanding Vision Transformers: From Attention to ViT",
+    "excerpt": "A deep dive into how the Transformer architecture was adapted for image recognition tasks, and why it works so well for computer vision.",
+    "date": "2026-03-17",
+    "readTime": "5 min read",
+    "tags": ["Vision Transformers", "Deep Learning", "Tutorial"],
+    "featured": true
+  },
+  {
+    "id": "blog-002",
+    "slug": "few-shot-learning-guide",
+    "title": "Few-Shot Learning: Teaching AI to Learn from Minimal Examples",
+    "excerpt": "An accessible guide to few-shot learning paradigms including prototypical networks, MAML, and the role of pre-training in low-data regimes.",
+    "date": "2026-03-17",
+    "readTime": "5 min read",
+    "tags": ["Few-Shot Learning", "Meta-Learning", "Tutorial"],
+    "featured": true
+  },
+  {
+    "id": "blog-003",
+    "slug": "cnn-vs-vision-transformers",
+    "title": "CNN vs Vision Transformers for Computer Vision",
+    "excerpt": "A practical comparison of convolutional neural networks and transformer-based architectures for image classification tasks.",
+    "date": "2026-03-17",
+    "readTime": "5 min read",
+    "tags": ["CNN", "Vision Transformers", "Computer Vision"],
+    "featured": true
+  },
+  {
+    "id": "blog-004",
+    "slug": "incremental-learning-ai",
+    "title": "Incremental Learning: How AI Learns New Classes",
+    "excerpt": "An overview of continual and incremental learning, including the challenge of catastrophic forgetting in deep learning systems.",
+    "date": "2026-03-17",
+    "readTime": "5 min read",
+    "tags": ["Incremental Learning", "Continual Learning", "Deep Learning"],
+    "featured": false
+  },
+  {
+    "id": "blog-005",
+    "slug": "domain-adaptation-computer-vision",
+    "title": "Domain Adaptation in Computer Vision",
+    "excerpt": "A simple explanation of how domain adaptation helps models perform better when training and testing environments are different.",
+    "date": "2026-03-17",
+    "readTime": "5 min read",
+    "tags": ["Domain Adaptation", "Transfer Learning", "Computer Vision"],
+    "featured": false
+  }
+]

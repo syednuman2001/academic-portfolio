@@ -1,0 +1,66 @@
+.research-page {
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+.research-hero {
+  padding: 5rem 0 0;
+  background: var(--bg-primary);
+  margin: 0;
+}
+
+.research-hero .section-title {
+  margin-bottom: 1rem !important;
+  padding-bottom: 0 !important;
+}
+
+.research-hero .section-title h2 {
+  margin-bottom: 1rem;
+}
+
+.research-hero .section-title p {
+  margin: 0;
+}
+
+.research-content {
+  padding: 0 0 5rem;
+}
+
+.research-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+}
+
+.research-results-info {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.research-results-info strong {
+  color: var(--accent-color);
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .research-hero {
+    padding-top: 3rem;
+  }
+
+  .research-filter-bar {
+    gap: 0.5rem;
+  }
+}

@@ -1,0 +1,60 @@
+.skills-stats-section {
+  padding: 1rem 0;
+  height: 50%;
+  padding-bottom: 4rem;
+}
+
+.skills-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.skills-stats-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.skills-pill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+
+.number-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.3rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.number-icon {
+  color: var(--accent-color);
+  font-size: 1.8rem;
+}
+
+.number-card h3 {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 900px) {
+  .skills-stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .numbers-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,152 @@
+.projects-page {
+  min-height: 100vh;
+  padding: 70px 8% 80px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-header {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.section-label {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #2563eb !important;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.projects-header h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.projects-header p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted-text);
+  line-height: 1.7;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: var(--card-shadow);
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--primary-color);
+}
+
+.project-top {
+  margin-bottom: 18px;
+}
+
+.project-category {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: rgba(0, 188, 212, 0.12);
+  color: #2563eb;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.project-card h3 {
+  font-size: 1.35rem;
+  margin-bottom: 14px;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.project-card p {
+  color: var(--muted-text);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.4rem 0 1.6rem;
+}
+
+.project-tech span {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.project-tech span:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.project-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: auto;
+}
+
+.project-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.project-actions a:hover {
+  transform: translateX(4px);
+}
+
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-header h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-page {
+    padding: 100px 5% 60px;
+  }
+
+  .project-card {
+    padding: 22px;
+  }
+
+  .projects-header h1 {
+    font-size: 2rem;
+  }
+}

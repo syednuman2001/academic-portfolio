@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 5rem;
+  padding: 3rem 0;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer h3 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-copy {
+  color: var(--text-muted);
+}

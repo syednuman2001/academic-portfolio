@@ -1,0 +1,55 @@
+{
+  "categories": [
+    {
+      "name": "Machine Learning & AI",
+      "skills": [
+        { "name": "PyTorch", "level": 80 },
+        { "name": "TensorFlow / Keras", "level": 80 },
+        { "name": "Scikit-learn", "level": 80 },
+        { "name": "Hugging Face Transformers", "level": 75 }
+      ]
+    },
+
+    {
+      "name": "Computer Vision",
+      "skills": [
+        { "name": "OpenCV", "level": 90 },
+        { "name": "Vision Transformers (ViT, DINO, CLIP)", "level": 88 },
+        { "name": "Object Detection (YOLO, DETR)", "level": 80 },
+        { "name": "Image Segmentation", "level": 75 }
+      ]
+    },
+
+    {
+      "name": "Programming Languages",
+      "skills": [
+        { "name": "Python", "level": 75 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "PHP", "level": 80 },
+        { "name": "C++", "level": 70 },
+        { "name": "MySQL", "level": 65 }
+      ]
+    },
+
+    {
+      "name": "Web Development",
+      "skills": [
+        { "name": "React.js", "level": 80 },
+        { "name": "Node.js", "level": 65 },
+        { "name": "Laravel", "level": 78 },
+        { "name": "WordPress", "level": 85 },
+        { "name": "HTML5 / CSS3", "level": 90 },
+        { "name": "REST APIs", "level": 70 }
+      ]
+    },
+
+    {
+      "name": "Tools & Infrastructure",
+      "skills": [
+        { "name": "Git / GitHub", "level": 90 },
+        { "name": "Weights & Biases", "level": 75 },
+        { "name": "LaTeX", "level": 95 }
+      ]
+    }
+  ]
+}

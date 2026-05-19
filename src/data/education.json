@@ -1,0 +1,31 @@
+[
+  {
+    "id": "edu-001",
+    "degree": "Master of Science in Computer Science",
+    "institution": "Lahore Garrison University, Lahore, Pakistan",
+    "duration": "2024 - 2026",
+    "status": "(Final Semester)",
+    "score": "CGPA: 3.76 / 4.0"
+  },
+  {
+    "id": "edu-002",
+    "degree": "Bachelor of Science in Computer Science",
+    "institution": "Virtual University of Pakistan, Lahore, Pakistan",
+    "duration": "2019 - 2023",
+    "score": "CGPA: 2.88 / 4.0"
+  },
+  {
+    "id": "edu-003",
+    "degree": "Intermediate I.C.S",
+    "institution": "Govt. Islamia College, Lahore Cantt, Pakistan",
+    "duration": "2017 - 2019",
+    "score": "Score: 68%"
+  },
+  {
+    "id": "edu-004",
+    "degree": "Matriculation in Computer Science",
+    "institution": "Govt. Islamia High School, Lahore Cantt, Pakistan",
+    "duration": "2015 - 2017",
+    "score": "Score: 78%"
+  }
+]

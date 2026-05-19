@@ -1,0 +1,12 @@
+{
+  "name": "Your Full Name",
+  "title": "MSCS Researcher | AI & Computer Vision",
+  "university": "Your University",
+  "department": "Department of Computer Science",
+  "bio": "I am a Computer Science graduate researcher specializing in few-shot learning, computer vision, and vision transformers. My work focuses on developing data-efficient deep learning methods for real-world applications.",
+  "researchStatement": "My research lies at the intersection of few-shot learning and computer vision, with a focus on enabling models to generalize from limited labeled data using Vision Transformers and domain adaptation techniques.",
+  "email": "you@university.edu",
+  "location": "Your City, Country",
+  "profileImage": "/src/assets/images/avatar.jpg",
+  "cvPath": "/src/assets/documents/cv.pdf"
+}

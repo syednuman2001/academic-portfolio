@@ -1,0 +1,29 @@
+[
+  {
+    "id": "exp-001",
+    "role": "Graduate Researcher",
+    "organization": "Okra Leaf Disease Detection using DeiT and Mistral-7B",
+    "duration": "Present",
+    "type": "Academic Research",
+    "description": "Conducting MSCS research on okra leaf disease detection using Vision Transformers and LLM-based explanation generation.",
+    "points": [
+      "Fine-tuned a pretrained DeiT model for okra leaf disease classification under limited-data conditions.",
+      "Integrated Mistral-7B LLM to generate human-readable explanations of model predictions.",
+      "Conducted experimental research using PyTorch and transformer-based deep learning frameworks.",
+      "Focused on explainable AI, agriculture AI, few-shot learning, and adaptive computer vision systems."
+    ]
+  },
+  {
+    "id": "exp-002",
+    "role": "Freelancer / Web Developer",
+    "organization": "Freelance Projects",
+    "duration": "Present",
+    "type": "Development",
+    "description": "Building and customizing web-based solutions using React, PHP Laravel, WordPress, and MERN stack technologies.",
+    "points": [
+      "Developed responsive websites and frontend interfaces using React and JavaScript.",
+      "Customized WordPress websites for freelance clients.",
+      "Worked with PHP Laravel and basic MERN stack development workflows."
+    ]
+  }
+]
