@@ -19,7 +19,7 @@ const HeroSection = () => {
           </p>
 
           <div className="hero-actions">
-            <Button href="/files/new-cv.pdf" icon={<FiDownload />}>
+            <Button href="/files/fixed-resume.pdf" icon={<FiDownload />}>
               Download CV
             </Button>{" "}
             <Button to="/research" variant="secondary" icon={<FiBookOpen />}>

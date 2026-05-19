@@ -5,7 +5,7 @@ import Button from "../../components/ui/Button.jsx";
 
 import "./CV.css";
 
-const cvFile = "/files/new-cv.pdf";
+const cvFile = "/files/fixed-resume.pdf";
 
 const CV = () => {
   return (
