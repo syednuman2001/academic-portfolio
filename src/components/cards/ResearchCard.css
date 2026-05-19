@@ -61,6 +61,23 @@
   animation: popupSlide 0.3s ease;
 }
 
+.github-popup {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--accent-color);
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 1.2rem;
+  box-shadow: var(--shadow-md);
+  font-weight: 600;
+  animation: popupSlide 0.3s ease;
+}
+
 @keyframes popupSlide {
   from {
     opacity: 0;

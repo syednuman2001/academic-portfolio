@@ -13,7 +13,24 @@ const ResearchCard = ({
   github,
   paper,
 }) => {
-  const [showPopup, setShowPopup] = useState(false);
+  const [popupMessage, setPopupMessage] = useState("");
+
+  const showMessage = (message) => {
+    setPopupMessage(message);
+
+    setTimeout(() => {
+      setPopupMessage("");
+    }, 3000);
+  };
+
+  const handleGithubClick = () => {
+    if (github && github !== "#") {
+      window.open(github, "_blank", "noopener,noreferrer");
+      return;
+    }
+
+    showMessage("Repository is not publicly available yet.");
+  };
 
   const handlePaperClick = () => {
     if (paper && paper !== "#") {
@@ -21,18 +38,12 @@ const ResearchCard = ({
       return;
     }
 
-    setShowPopup(true);
-
-    setTimeout(() => {
-      setShowPopup(false);
-    }, 3000);
+    showMessage("This paper is not published yet.");
   };
 
   return (
     <>
-      {showPopup && (
-        <div className="paper-popup">This paper is not published yet.</div>
-      )}
+      {popupMessage && <div className="paper-popup">{popupMessage}</div>}
 
       <article className="research-card">
         <div className="research-card-content">
@@ -67,11 +78,14 @@ const ResearchCard = ({
           </div>
 
           <div className="research-actions">
-            {github && (
-              <Button href={github} variant="secondary" size="sm">
-                GitHub
-              </Button>
-            )}
+            <Button
+              type="button"
+              variant="secondary"
+              size="sm"
+              onClick={handleGithubClick}
+            >
+              GitHub
+            </Button>
 
             <Button
               type="button"

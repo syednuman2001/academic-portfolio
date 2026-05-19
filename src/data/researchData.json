@@ -16,7 +16,7 @@
     ],
     "icon": "leaf",
     "featured": true,
-    "github": "https://github.com/syednuman2001",
+    "github": "#",
     "paper": "#"
   },
   {
@@ -42,7 +42,7 @@
     "tags": ["Vision Transformers", "Self-Attention", "Deep Learning"],
     "icon": "eye",
     "featured": true,
-    "github": "https://github.com/syednuman2001",
+    "github": "#",
     "paper": "#"
   },
   {
@@ -55,7 +55,7 @@
     "tags": ["Domain Adaptation", "Transfer Learning", "Computer Vision"],
     "icon": "arrows-exchange",
     "featured": false,
-    "github": "https://github.com/syednuman2001",
+    "github": "#",
     "paper": "#"
   },
   {
@@ -68,7 +68,7 @@
     "tags": ["Incremental Learning", "Continual Learning", "Deep Learning"],
     "icon": "trending-up",
     "featured": false,
-    "github": "https://github.com/syednuman2001",
+    "github": "#",
     "paper": "#"
   }
 ]
