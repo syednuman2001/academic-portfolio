@@ -43,7 +43,7 @@ const About = () => {
           <SectionTitle
             eyebrow="About Me"
             title="Computer Science Researcher & Developer"
-            description="A motivated Computer Science graduate currently pursuing MSCS with research interests in few-shot learning, computer vision, and deep learning systems."
+            description="A motivated Computer Science graduate with an MSCS degree and research interests in few-shot learning, computer vision, and deep learning systems."
           />
 
           <div className="about-summary-card">
