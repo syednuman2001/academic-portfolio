@@ -14,8 +14,8 @@ const projects = [
       "Python",
       "Deep Learning",
     ],
-    github: "",
-    live: "",
+    github: "https://github.com/syednuman2001/Okra-leaf-disease-app",
+    live: "https://okrafarmer.streamlit.app/",
   },
   {
     title: "Few-Shot Okra Disease Classification: DeiT vs ResNet18",

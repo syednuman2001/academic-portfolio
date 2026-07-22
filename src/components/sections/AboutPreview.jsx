@@ -7,7 +7,7 @@ const aboutCards = [
   {
     icon: <FiBookOpen />,
     title: "Education",
-    text: "MS Computer Science (In Progress)",
+    text: "Master in Computer Science",
   },
   {
     icon: <FaFlask />,
@@ -40,7 +40,7 @@ const AboutPreview = () => {
           </h2>
 
           <p>
-            I am an MSCS student and researcher with a strong interest in
+            I am an MSc graduate and researcher with a strong interest in
             Artificial Intelligence, Computer Vision, Few-Shot Learning, and
             Vision Transformers. I enjoy building impactful research and
             real-world solutions.
